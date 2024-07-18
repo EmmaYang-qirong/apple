@@ -59,8 +59,8 @@ def create_plot():
         margin=dict(l=50, r=50, b=50, t=80),
         xaxis=dict(showline=True, linewidth=2, linecolor='black'),
         # yaxis=dict(showline=True, linewidth=2, linecolor='black'),
-        height=1100,  # 设置图表高度
-        width=2000,  # 设置图表宽度
+        height=1100,  
+        width=2000,  
     )
     fig.update_layout(xaxis_rangeslider_visible=False)  
 
